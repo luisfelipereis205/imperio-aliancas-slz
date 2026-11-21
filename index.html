@@ -176,5 +176,53 @@
         </div>
       </section>
 
+      <!-- Catálogo de Alianças -->
+      <section class="secao-aliancas" id="aliancas">
+        <div class="container">
+          <div class="cabecalho-secao">
+            <span class="subtitulo-topo-secao">💍 ETERNIZE SEU COMPROMISSO</span>
+            <h2 class="titulo-secao">Nosso Catálogo de Alianças</h2>
+            <p class="descricao-secao">
+              Filtre pela cor, escolha a categoria de valor e selecione a
+              largura (mm) desejada antes de enviar seu pedido para o WhatsApp.
+            </p>
+          </div>
+
+          <!-- Controles de Filtro das Alianças -->
+          <div class="controles-aliancas">
+            <!-- Abas de Material -->
+            <div class="abas-material" role="tablist">
+              <button class="botao-aba ativo" data-material="todos">
+                Todas
+              </button>
+              <button class="botao-aba" data-material="dourada">
+                ✨ Douradas
+              </button>
+              <button class="botao-aba" data-material="prata">
+                🤍 Prateadas
+              </button>
+            </div>
+
+            <!-- Filtro de Subpastas (Valores e Aparador) -->
+            <div class="filtros-preco">
+              <span class="rotulo-filtro">Categoria:</span>
+              <button class="pilula-preco ativo" data-preco="todos">
+                Todas as Opções
+              </button>
+              <button class="pilula-preco" data-preco="69.90">R$ 69,90</button>
+              <button class="pilula-preco" data-preco="99.90">R$ 99,90</button>
+              <button class="pilula-preco" data-preco="aparador" id="pilula-aparador">
+                Com Aparador (Douradas)
+              </button>
+            </div>
+          </div>
+
+          <!-- Grid onde o JavaScript vai renderizar os modelos com seletor de MM -->
+          <div class="grade-produtos" id="grade-aliancas">
+            <!-- Aqui serão injetados os cards de alianças via JavaScript -->
+          </div>
+        </div>
+      </section>
+
   </body>
 </html>
