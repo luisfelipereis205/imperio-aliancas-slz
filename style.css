@@ -1,0 +1,49 @@
+:root {
+  /* Cores */
+  --cor-fundo: #FAFAFA;
+  --cor-branco: #FFFFFF;
+  --cor-preto: #1A1A1A;
+  --cor-preto-profundo: #0D0D0D;
+
+  --cor-dourado: #D4AF37;
+  --cor-dourado-escuro: #C5A059;
+  --cor-dourado-claro: #F3E5AB;
+
+  --cor-rosa: #E8A5A5;
+  --cor-rosa-escuro: #C97A7A;
+
+  --cor-texto: #5C5C5C;
+  --cor-texto-claro: #8A8A8A;
+
+  --cor-whatsapp: #25D366;
+  --cor-whatsapp-hover: #1EBE5D;
+
+  /* Fundos */
+  --bg-principal: #FAFAFA;
+  --bg-card: #FFFFFF;
+  --bg-dourado: #FBF8F1;
+  --bg-rosa: #FDF5F5;
+
+  /* Bordas */
+  --borda: #ECECEC;
+  --borda-dourada: rgba(212, 175, 55, 0.35);
+
+  /* Sombras */
+  --sombra-sm: 0 4px 14px rgba(0, 0, 0, 0.04);
+  --sombra-md: 0 10px 30px rgba(0, 0, 0, 0.07);
+  --sombra-lg: 0 18px 40px rgba(13, 13, 13, 0.12);
+
+  /* Tipografia */
+  --fonte-titulo: 'Playfair Display', Georgia, serif;
+  --fonte-principal: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Bordas arredondadas */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Transições */
+  --transicao: all 0.28s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
